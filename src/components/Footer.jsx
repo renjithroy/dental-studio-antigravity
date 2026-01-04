@@ -68,7 +68,6 @@ export default function Footer() {
                         <div className="footer-brand">
                             <a href="#home" className="footer-logo" onClick={(e) => handleNavClick(e, '#home')}>
                                 <img src="/images/logo.png" alt="Blue Star" className="footer-logo-img" />
-                                <span className="logo-text">Blue Star</span>
                             </a>
                             <p className="footer-description">
                                 Your trusted partner for comprehensive dental care. We combine

@@ -60,10 +60,19 @@ export default function Navbar() {
             <div className="navbar-container container">
                 <a href="#home" className="navbar-logo" onClick={(e) => handleNavClick(e, '#home')}>
                     <img src="/images/logo.png" alt="Blue Star" className="logo-img" />
-                    <span className="logo-text">Blue Star</span>
+                    {/* <span className="logo-text">Blue Star</span> */}
                 </a>
 
                 <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
+                    {/* Mobile Menu Close Button */}
+                    <button
+                        className="mobile-menu-close"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        aria-label="Close menu"
+                    >
+                        <X size={24} />
+                    </button>
+
                     {navLinks.map((link) => (
                         <li key={link.href}>
                             <a
@@ -76,7 +85,7 @@ export default function Navbar() {
                         </li>
                     ))}
                     <li className="nav-cta-mobile">
-                        <a href="tel:+919876543210" className="btn btn-primary">
+                        <a href="tel:+919645751111" className="btn btn-primary">
                             <Phone size={18} />
                             Call Now
                         </a>
@@ -84,9 +93,9 @@ export default function Navbar() {
                 </ul>
 
                 <div className="navbar-actions">
-                    <a href="tel:+919876543210" className="nav-cta btn btn-primary">
-                        <Phone size={18} />
-                        Call Now
+                    <a href="tel:+919645751111" className="nav-cta-link btn btn-primary">
+                        <Phone size={16} />
+                        <span>+91 96457 51111</span>
                     </a>
                     <button
                         className="mobile-menu-btn"

@@ -2,7 +2,7 @@
 import './WhatsAppButton.css';
 
 export default function WhatsAppButton() {
-    const phoneNumber = '919876543210';
+    const phoneNumber = '919645751111';
     const message = 'Hello! I would like to book an appointment at Blue Star Dental Clinic.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

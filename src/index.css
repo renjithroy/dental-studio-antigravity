@@ -8,9 +8,17 @@
 /* CSS Custom Properties (Design Tokens) */
 :root {
   /* Colors - Calm Healthcare Palette */
-  --color-primary: #0D9488;
+  /* --color-primary: #0D9488;
   --color-primary-light: #14B8A6;
-  --color-primary-dark: #0F766E;
+  --color-primary-dark: #0F766E; */
+
+  /* Colors - Dental Blue Palette */
+  --color-primary: #0284C7;
+  /* Sky 600 - Trust & Professionalism */
+  --color-primary-light: #38BDF8;
+  /* Sky 400 - Fresh & Clean */
+  --color-primary-dark: #0369A1;
+
   --color-primary-50: #F0FDFA;
   --color-primary-100: #CCFBF1;
 

@@ -59,8 +59,8 @@
     position: absolute;
     inset: 0;
     background: linear-gradient(to top,
-            rgba(13, 148, 136, 0.95) 0%,
-            rgba(13, 148, 136, 0.8) 50%,
+            rgba(2, 132, 199, 0.95) 0%,
+            rgba(2, 132, 199, 0.8) 50%,
             transparent 100%);
     display: flex;
     align-items: flex-end;

@@ -51,7 +51,7 @@ export default function Hero() {
                     </div>
                     <div className="hero-quick-contact animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
                         <a
-                            href="https://wa.me/919876543210?text=Hello! I would like to book an appointment."
+                            href="https://wa.me/919645751111?text=Hello! I would like to book an appointment."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="whatsapp-link"
