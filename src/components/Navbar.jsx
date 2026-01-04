@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone, ChevronRight } from 'lucide-react';
+import { Menu, X, Phone, ChevronRight, Box } from 'lucide-react';
 import './Navbar.css';
 
 const navLinks = [
@@ -11,7 +11,7 @@ const navLinks = [
     { href: '#contact', label: 'Contact' },
 ];
 
-export default function Navbar() {
+export default function Navbar({ onOpenExplore }) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
@@ -55,6 +55,11 @@ export default function Navbar() {
         setIsMobileMenuOpen(false);
     };
 
+    const handleExploreClick = () => {
+        setIsMobileMenuOpen(false);
+        onOpenExplore?.();
+    };
+
     return (
         <>
             {/* Desktop Floating Navbar */}
@@ -82,6 +87,11 @@ export default function Navbar() {
 
                     {/* Right Actions */}
                     <div className="navbar-actions">
+                        <button className="navbar-explore-btn" onClick={handleExploreClick}>
+                            <Box size={16} strokeWidth={2} />
+                            <span>Tooth Anatomy (3D)</span>
+                        </button>
+
                         <a href="tel:+919645751111" className="navbar-cta">
                             <Phone size={16} strokeWidth={2.5} />
                             <span className="cta-text">Call Us</span>
@@ -130,6 +140,15 @@ export default function Navbar() {
                             <ChevronRight size={16} className="mobile-nav-arrow" />
                         </a>
                     ))}
+
+                    {/* 3D Model button in mobile menu */}
+                    <button
+                        className="mobile-nav-link mobile-explore-link"
+                        onClick={handleExploreClick}
+                        style={{ animationDelay: `${navLinks.length * 50}ms` }}
+                    >
+                        <span><Box size={16} />Tooth Anatomy (3D)</span>
+                    </button>
                 </nav>
 
                 <div className="mobile-menu-footer">
@@ -143,3 +162,4 @@ export default function Navbar() {
         </>
     );
 }
+
