@@ -356,6 +356,17 @@
         display: none;
     }
 
+    .navbar-explore-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+        gap: 5px;
+    }
+
+    .navbar-explore-btn svg {
+        width: 14px;
+        height: 14px;
+    }
+
     .navbar-cta .cta-text {
         display: none;
     }
@@ -382,17 +393,28 @@
     }
 
     .navbar-inner {
-        padding: 6px 6px 6px 16px;
+        padding: 6px 6px 6px 12px;
     }
 
     .logo-img {
         height: 26px;
     }
 
+    .navbar-explore-btn {
+        padding: 6px 10px;
+        font-size: 11px;
+        gap: 4px;
+    }
+
+    .navbar-explore-btn svg {
+        width: 12px;
+        height: 12px;
+    }
+
     .navbar-cta,
     .mobile-menu-btn {
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
     }
 }
 
