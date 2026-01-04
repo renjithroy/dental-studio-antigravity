@@ -10,11 +10,11 @@ const doctors = [
         image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&fit=crop&crop=faces',
     },
     {
-        name: 'Dr. Rajesh Mehta',
+        name: 'Dr. Rajesh',
         qualification: 'BDS, MDS (Endodontics)',
         specialty: 'Root Canal & Restorative Dentistry',
         bio: 'Dr. Rajesh has performed over 5,000 successful root canal procedures. Known for his painless techniques and patient-first philosophy, he ensures every treatment is as comfortable as possible.',
-        image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=500&fit=crop&crop=faces',
+        image: '/images/doctor_portrait.png',
     },
     {
         name: 'Dr. Ananya Reddy',

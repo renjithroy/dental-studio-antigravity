@@ -39,8 +39,10 @@
     margin-bottom: var(--spacing-4);
 }
 
-.footer-logo .logo-icon {
-    font-size: var(--font-size-2xl);
+.footer-logo .footer-logo-img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-logo .logo-text {

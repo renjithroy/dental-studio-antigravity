@@ -7,36 +7,35 @@ const contactInfo = [
     {
         icon: Phone,
         label: 'Call Us',
-        value: '+91 98765 43210',
-        href: 'tel:+919876543210',
-        description: 'Mon-Sat, 9AM-8PM',
+        value: '+91 96457 51111',
+        href: 'tel:+919645751111',
+        description: 'Mon-Sat, 9AM-5:30PM',
     },
     {
         icon: MessageCircle,
         label: 'WhatsApp',
-        value: '+91 98765 43210',
-        href: 'https://wa.me/919876543210?text=Hello! I would like to book an appointment.',
+        value: '+91 96457 51111',
+        href: 'https://wa.me/919645751111?text=Hello! I would like to book an appointment.',
         description: 'Quick responses',
     },
     {
         icon: Mail,
         label: 'Email Us',
-        value: 'hello@smilecare.in',
-        href: 'mailto:hello@smilecare.in',
+        value: 'hello@bluestarclinic.in',
+        href: 'mailto:hello@bluestarclinic.in',
         description: "We'll reply within 24 hours",
     },
     {
         icon: MapPin,
         label: 'Visit Us',
-        value: '123 Smile Street, Koramangala',
+        value: 'Kallarkutti Rd, Adimali, Kerala',
         href: 'https://maps.google.com',
-        description: 'Bangalore, Karnataka 560034',
+        description: 'Adimali, Idukki',
     },
 ];
 
 const timings = [
-    { day: 'Monday - Friday', hours: '9:00 AM - 8:00 PM' },
-    { day: 'Saturday', hours: '9:00 AM - 6:00 PM' },
+    { day: 'Monday - Saturday', hours: '9:00 AM - 5:30 PM' },
     { day: 'Sunday', hours: 'Closed' },
 ];
 
@@ -140,7 +139,7 @@ export default function Contact() {
                                                 name="phone"
                                                 value={formData.phone}
                                                 onChange={handleChange}
-                                                placeholder="+91 98765 43210"
+                                                placeholder="+91 96457 51111"
                                                 required
                                             />
                                         </div>
@@ -213,8 +212,7 @@ export default function Contact() {
                         {/* Google Maps */}
                         <div className="map-wrapper">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5831955983474!2d77.61448!3d12.9352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU2JzA2LjciTiA3N8KwMzYnNTIuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
-                                width="100%"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.056263737625!2d76.95278587450868!3d10.012211472825548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0796302d6d69df%3A0x850a90303e2cc32e!2sBlue%20Star%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1767507518700!5m2!1sen!2sin" width="100%"
                                 height="200"
                                 style={{ border: 0 }}
                                 allowFullScreen=""

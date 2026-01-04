@@ -159,6 +159,7 @@
     position: relative;
     width: 100%;
     max-width: 450px;
+    max-height: 550px;
     height: auto;
     border-radius: var(--radius-2xl);
     box-shadow: var(--shadow-xl);

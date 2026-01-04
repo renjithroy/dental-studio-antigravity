@@ -67,8 +67,8 @@ export default function Footer() {
                         {/* Brand Column */}
                         <div className="footer-brand">
                             <a href="#home" className="footer-logo" onClick={(e) => handleNavClick(e, '#home')}>
-                                <span className="logo-icon">🦷</span>
-                                <span className="logo-text">SmileCare</span>
+                                <img src="/images/logo.png" alt="Blue Star" className="footer-logo-img" />
+                                <span className="logo-text">Blue Star</span>
                             </a>
                             <p className="footer-description">
                                 Your trusted partner for comprehensive dental care. We combine
@@ -124,15 +124,15 @@ export default function Footer() {
                             <div className="footer-contact">
                                 <a href="tel:+919876543210" className="contact-item">
                                     <Phone size={16} />
-                                    <span>+91 98765 43210</span>
+                                    <span>+91 96457 51111</span>
                                 </a>
-                                <a href="mailto:hello@smilecare.in" className="contact-item">
+                                <a href="mailto:hello@bluestar.in" className="contact-item">
                                     <Mail size={16} />
-                                    <span>hello@smilecare.in</span>
+                                    <span>hello@bluestar.in</span>
                                 </a>
                                 <div className="contact-item">
                                     <MapPin size={16} />
-                                    <span>123 Smile Street, Koramangala,<br />Bangalore 560034</span>
+                                    <span>Kallarkutti Rd, Adimali<br />Kerala 685561</span>
                                 </div>
                             </div>
                         </div>
@@ -141,11 +141,11 @@ export default function Footer() {
             </div>
 
             {/* Bottom Bar */}
-            <div className="footer-bottom">
+            {/* <div className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom-content">
                         <p className="copyright">
-                            © {new Date().getFullYear()} SmileCare Dental Clinic. Made with{' '}
+                            © {new Date().getFullYear()} Blue Star Dental Clinic. Made with{' '}
                             <Heart size={14} className="heart-icon" /> in India.
                         </p>
                         <div className="footer-bottom-links">
@@ -154,7 +154,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Scroll to Top Button */}
             <button

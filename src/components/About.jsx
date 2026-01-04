@@ -39,8 +39,8 @@ export default function About() {
                     >
                         <div className="about-image-bg"></div>
                         <img
-                            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&h=500&fit=crop"
-                            alt="Our modern dental clinic"
+                            src="/images/clinic-about.jpg"
+                            alt="Our dental clinic team with a happy patient"
                             className="about-image"
                         />
                         <div className="about-experience-badge">
@@ -58,7 +58,7 @@ export default function About() {
                             Your Family's Smile is <span className="text-gradient">Our Mission</span>
                         </h2>
                         <p className="about-description">
-                            Welcome to SmileCare Dental Clinic — where modern dentistry meets
+                            Welcome to Blue Star Dental Clinic — where modern dentistry meets
                             compassionate care. Located in the heart of the city, we've been
                             serving families for over 15 years with a commitment to excellence
                             that goes beyond just dental procedures.

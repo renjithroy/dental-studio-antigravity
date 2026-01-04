@@ -59,8 +59,8 @@ export default function Navbar() {
         <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
             <div className="navbar-container container">
                 <a href="#home" className="navbar-logo" onClick={(e) => handleNavClick(e, '#home')}>
-                    <span className="logo-icon">🦷</span>
-                    <span className="logo-text">SmileCare</span>
+                    <img src="/images/logo.png" alt="Blue Star" className="logo-img" />
+                    <span className="logo-text">Blue Star</span>
                 </a>
 
                 <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>

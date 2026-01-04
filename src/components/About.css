@@ -16,8 +16,10 @@
 
 .about-image-bg {
     position: absolute;
-    inset: 20px;
-    inset-right: 40px;
+    top: 20px;
+    left: 20px;
+    right: 40px;
+    bottom: 20px;
     background: linear-gradient(135deg, var(--color-primary-100), var(--color-accent));
     border-radius: var(--radius-2xl);
     transform: rotate(-3deg);
@@ -26,6 +28,10 @@
 .about-image {
     position: relative;
     width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: center;
     border-radius: var(--radius-2xl);
     box-shadow: var(--shadow-xl);
 }

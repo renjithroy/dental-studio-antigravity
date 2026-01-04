@@ -67,10 +67,15 @@ export default function Hero() {
                 <div className="hero-visual animate-fade-in" style={{ animationDelay: '0.3s' }}>
                     <div className="hero-image-wrapper">
                         <div className="hero-image-bg"></div>
-                        <img
+                        {/* <img
                             src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=700&fit=crop&crop=faces"
                             alt="Modern dental clinic interior"
                             className="hero-image"
+                        /> */}
+                        <img
+                            src="/images/doctor_portrait.png"
+                            alt="Modern dental clinic interior"
+                            className="hero-image max-h-[500px]"
                         />
                         {/* Floating Cards */}
                         <div className="floating-card floating-card-1">
