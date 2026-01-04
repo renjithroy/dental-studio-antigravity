@@ -64,7 +64,7 @@ export default function Contact() {
         e.preventDefault();
         // In a real app, you would send this data to a server
         console.log('Form submitted:', formData);
-        setIsSubmitted(true);   
+        setIsSubmitted(true);
         setTimeout(() => {
             setIsSubmitted(false);
             setFormData({ name: '', email: '', phone: '', message: '' });
@@ -152,7 +152,7 @@ export default function Contact() {
                                             value={formData.message}
                                             onChange={handleChange}
                                             placeholder="Tell us about your dental needs..."
-                                            rows={4}
+                                            rows={7}
                                             required
                                         ></textarea>
                                     </div>
